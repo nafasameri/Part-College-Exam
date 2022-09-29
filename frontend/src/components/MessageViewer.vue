@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="message-reply">
+    <div class="message-reply" v-if="messageData.reply != null">
       <div class="message-reply__body">{{ messageData.reply.body }}</div>
       <div class="message-reply__date">{{ messageData.reply.date }}</div>
     </div>

@@ -71,3 +71,137 @@
 [1401-7-6 11:10:29] [INFO]: Server is running at: 127.0.0.1:81 
 [1401-7-6 11:10:32] [INFO]: Server is running at: 127.0.0.1:81 
 [1401-7-6 11:10:36] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 14:56:5] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 14:59:17] [INFO]: path: /message/ 
+[1401-7-6 14:59:20] [INFO]: path: /message/ 
+[1401-7-6 15:0:5] [INFO]: path: /message/ 
+[1401-7-6 15:0:6] [INFO]: path: /message/ 
+[1401-7-6 15:0:8] [INFO]: path: /message/ 
+[1401-7-6 15:0:20] [INFO]: path: /message/ 
+[1401-7-6 15:1:7] [INFO]: path: /message/ 
+[1401-7-6 15:3:29] [INFO]: path: /message/ 
+[1401-7-6 15:3:32] [INFO]: path: /message/ 
+[1401-7-6 15:4:37] [INFO]: path: /message/ 
+[1401-7-6 15:5:8] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:5:12] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:5:14] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:8:15] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:8:24] [INFO]: path: /message/ 
+[1401-7-6 15:8:57] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:8:59] [INFO]: path: /message/ 
+[1401-7-6 15:9:36] [INFO]: path: /message/ 
+[1401-7-6 15:10:8] [INFO]: path: /message/ 
+[1401-7-6 15:10:10] [INFO]: path: /message/ 
+[1401-7-6 15:10:24] [INFO]: path: /message/ 
+[1401-7-6 15:11:57] [INFO]: path: /message/ 
+[1401-7-6 15:12:20] [INFO]: path: /message/ 
+[1401-7-6 15:13:8] [INFO]: path: /message/ 
+[1401-7-6 15:13:39] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:48] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:49] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:51] [INFO]: path: /message/ 
+[1401-7-6 15:14:33] [INFO]: path: /message/ 
+[1401-7-6 15:14:33] [INFO]: path: /message/ 
+[1401-7-6 15:15:28] [INFO]: path: /message/ 
+[1401-7-6 15:15:31] [INFO]: path: /message/ 
+[1401-7-6 15:15:54] [INFO]: path: /message/ 
+[1401-7-6 15:16:15] [INFO]: path: /message/ 
+[1401-7-6 15:16:41] [INFO]: path: /message/ 
+[1401-7-6 15:16:44] [INFO]: path: /message/ 
+[1401-7-6 15:16:45] [INFO]: path: /message/ 
+[1401-7-6 15:16:50] [INFO]: path: /message/ 
+[1401-7-6 15:17:16] [INFO]: path: /message/ 
+[1401-7-6 15:17:16] [INFO]: path: /message/ 
+[1401-7-6 15:17:18] [INFO]: path: /message/ 
+[1401-7-6 15:17:20] [INFO]: path: /message/ 
+[1401-7-6 15:17:38] [INFO]: path: /message/ 
+[1401-7-6 15:17:39] [INFO]: path: /message/ 
+[1401-7-6 15:17:47] [INFO]: path: /message/ 
+[1401-7-6 15:17:48] [INFO]: path: /message/ 
+[1401-7-6 15:20:0] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:20:2] [INFO]: path: /message/ 
+[1401-7-6 15:20:9] [INFO]: path: /message/ 
+[1401-7-6 15:24:56] [INFO]: path: /message/ 
+[1401-7-6 15:24:57] [INFO]: path: /message/get?id=undefined 
+[1401-7-6 15:24:57] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "MessageID"=undefined" message: error: column "undefined" does not exist 
+[1401-7-6 15:24:57] [ERROR]: /message/get?id=undefined: error: column "undefined" does not exist 
+[1401-7-6 15:24:57] [ERROR]: /message/get?id=undefined - column "undefined" does not exist 
+[1401-7-6 15:24:59] [INFO]: path: /message/ 
+[1401-7-6 15:24:59] [INFO]: path: /message/get?id=undefined 
+[1401-7-6 15:24:59] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "MessageID"=undefined" message: error: column "undefined" does not exist 
+[1401-7-6 15:24:59] [ERROR]: /message/get?id=undefined - column "undefined" does not exist 
+[1401-7-6 15:24:59] [ERROR]: /message/get?id=undefined: error: column "undefined" does not exist 
+[1401-7-6 15:25:11] [INFO]: path: /message/ 
+[1401-7-6 15:25:11] [INFO]: path: /message/get?id=undefined 
+[1401-7-6 15:25:11] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "MessageID"=undefined" message: error: column "undefined" does not exist 
+[1401-7-6 15:25:11] [ERROR]: /message/get?id=undefined: error: column "undefined" does not exist 
+[1401-7-6 15:25:11] [ERROR]: /message/get?id=undefined - column "undefined" does not exist 
+[1401-7-6 15:25:12] [INFO]: path: /message/ 
+[1401-7-6 15:25:12] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:25:14] [INFO]: path: /message/ 
+[1401-7-6 15:25:14] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:25:16] [INFO]: path: /message/ 
+[1401-7-6 15:25:16] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:25:53] [INFO]: path: /message/ 
+[1401-7-6 15:25:53] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:16] [INFO]: path: /message/ 
+[1401-7-6 15:26:16] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:29] [INFO]: path: /message/ 
+[1401-7-6 15:26:29] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:36] [INFO]: path: /message/ 
+[1401-7-6 15:26:36] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:49] [INFO]: path: /message/ 
+[1401-7-6 15:26:49] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:51] [INFO]: path: /message/ 
+[1401-7-6 15:26:51] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:27:53] [INFO]: path: /message/ 
+[1401-7-6 15:27:53] [INFO]: path: /message/ 
+[1401-7-6 15:27:53] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:27:53] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:33:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:33:27] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:33:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:35:27] [INFO]: path: /message/ 
+[1401-7-6 15:35:28] [INFO]: path: /message/ 
+[1401-7-6 15:35:28] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:28] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:29] [INFO]: path: /message/ 
+[1401-7-6 15:35:29] [INFO]: path: /message/ 
+[1401-7-6 15:35:29] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:29] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:32] [INFO]: path: /message/ 
+[1401-7-6 15:35:32] [INFO]: path: /message/ 
+[1401-7-6 15:35:32] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:32] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:44] [INFO]: path: /message/ 
+[1401-7-6 15:35:44] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:44] [INFO]: path: /message/ 
+[1401-7-6 15:35:44] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:36:49] [INFO]: path: /message/ 
+[1401-7-6 15:36:49] [INFO]: path: /message/ 
+[1401-7-6 15:36:49] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:36:49] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:37:10] [INFO]: path: /message/ 
+[1401-7-6 15:37:10] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:37:10] [INFO]: path: /message/ 
+[1401-7-6 15:37:10] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:37:23] [INFO]: path: /message/ 
+[1401-7-6 15:37:23] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:38] [INFO]: path: /message/ 
+[1401-7-6 15:38:38] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:50] [INFO]: path: /message/ 
+[1401-7-6 15:38:50] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:51] [INFO]: path: /message/ 
+[1401-7-6 15:38:51] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:51] [INFO]: path: /message/ 
+[1401-7-6 15:38:51] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:39:33] [INFO]: path: /message/ 
+[1401-7-6 15:39:33] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:40:47] [INFO]: path: /message/ 
+[1401-7-6 15:40:47] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:41:33] [INFO]: path: /message/ 
+[1401-7-6 15:41:33] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:41:37] [INFO]: path: /message/ 
+[1401-7-6 15:41:37] [INFO]: path: /message/get?id=1 
+[1401-7-6 16:28:23] [INFO]: path: /message/ 
