@@ -24,16 +24,10 @@ class DataBase {
         }
     }
 
-    selcet(table, columns, conditions, IsDelete = 0) {
-        let sql = `SELECT ${columns} FROM "${this.schema}"."${table}" WHERE ${conditions} AND "IsDelete"=${IsDelete}`;
+    selcet(table, columns, conditions) {
+        let sql = `SELECT ${columns} FROM "${this.schema}"."${table}" WHERE ${conditions}`;
         if (conditions == undefined)
-            sql = `SELECT ${columns} FROM "${this.schema}"."${table}" WHERE "IsDelete"=${IsDelete}`;
-
-        if (IsDelete == 1) {
-            sql = `SELECT ${columns} FROM "${this.schema}"."${table}" WHERE ${conditions}`;
-            if (conditions == undefined)
-                sql = `SELECT ${columns} FROM "${this.schema}"."${table}"`;
-        }
+            sql = `SELECT ${columns} FROM "${this.schema}"."${table}"`;
         return this.query(sql);
     }
 
@@ -53,10 +47,9 @@ class DataBase {
     }
 
     join(table1, table2, key, columns, conditions, IsDelete = 0) {
-        let sql = `SELECT ${columns} FROM "${this.schema}"."${table1}" 
+        const sql = `SELECT ${columns} FROM "${this.schema}"."${table1}" 
          JOIN "${this.schema}"."${table2}" ON "${table1}"."${key}" = "${table2}"."${key}"
-         WHERE ${conditions} 
-         AND "${table1}"."IsDelete"=${IsDelete} AND "${table2}"."IsDelete"=${IsDelete}`;
+         WHERE ${conditions}`;
 
         return this.query(sql);
     }

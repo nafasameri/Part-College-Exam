@@ -1,1 +1,73 @@
 [1401-7-6 10:17:46] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:48:33] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:49:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:49:35] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:0] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:4] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:34] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:37] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:46] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:3] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:4] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:38] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:46] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:53] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:58] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:52:31] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:52:33] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:53:21] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "IsDelete"=0" message: error: column "IsDelete" does not exist 
+[1401-7-6 10:53:21] [ERROR]: /message/: error: column "IsDelete" does not exist 
+[1401-7-6 10:53:21] [ERROR]: /message/ - column "IsDelete" does not exist 
+[1401-7-6 10:54:59] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:15] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:56:3] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:56:10] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:15] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:17] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:24] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:42] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:45] [INFO]: path: /message/?id=2 
+[1401-7-6 10:58:37] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:58:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:58:41] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:59:6] [Warning]: [object Map] 
+[1401-7-6 10:59:6] [INFO]: path: /message/?id=2 
+[1401-7-6 11:0:7] [Warning]: [object Map] 
+[1401-7-6 11:0:17] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:0:18] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:0:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:4] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:8] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:9] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:24] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:28] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:38] [INFO]: path: /message/get?id=2 
+[1401-7-6 11:2:20] [INFO]: path: /message/add 
+[1401-7-6 11:2:37] [INFO]: path: /message/add 
+[1401-7-6 11:2:41] [INFO]: path: /message/add 
+[1401-7-6 11:2:42] [ERROR]: query: "INSERT INTO "public"."Message" ( "MessageBody", "MessageDate", "ReplyID" ) VALUES ( 'ghfjkdl', '1401-7-6 11:2:41', null ) RETURNING *" message: error: column "MessageBody" of relation "Message" does not exist 
+[1401-7-6 11:2:42] [ERROR]: /message/add: error: column "MessageBody" of relation "Message" does not exist 
+[1401-7-6 11:2:42] [ERROR]: /message/add - column "MessageBody" of relation "Message" does not exist 
+[1401-7-6 11:4:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:4:47] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:4:50] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:4:53] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:5:4] [INFO]: path: /message/add 
+[1401-7-6 11:5:23] [INFO]: path: /message/add 
+[1401-7-6 11:10:6] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:11] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:25] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:32] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:36] [INFO]: Server is running at: 127.0.0.1:81 
