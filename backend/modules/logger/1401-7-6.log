@@ -334,3 +334,5 @@
 [1401-7-6 18:1:55] [INFO]: {"id":0.6590052007991984,"ip":"127.0.0.1","address":"/message/get?id=3","message":""}
 [1401-7-6 18:2:26] [INFO]: {"id":0.977565932286155,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
 [1401-7-6 18:2:30] [INFO]: {"id":0.39628880518451415,"ip":"127.0.0.1","address":"/captcha/get","message":"captcha"}
+[1401-7-6 18:4:26] [INFO]: {"id":0.15106321810789125,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:4:28] [INFO]: {"id":0.13412299273855322,"ip":"127.0.0.1","address":"/message/add","message":""}
