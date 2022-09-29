@@ -19,33 +19,14 @@ class MessageRepository {
 
     }
 
-    async add(message, userID) {
+    async add(message) {
         const messageModel = {
             body: message.body ?? '',
-            date: message.date ?? '',
+            date: datetime(),
             reply: message.reply ?? null
         };
         const record = await db.insert('Message', '"MessageBody", "MessageDate", "ReplyID"',
         `'${messageModel.body}', '${messageModel.date}', ${messageModel.reply}`);
-        return record.rows[0] ? new Message(record.rows[0]).get() : undefined;
-    }
-
-    async update(message, userID) {
-        const messageModel = {
-            id: message.id ?? null,
-            body: message.body ?? '',
-            date: message.date ?? '',
-            reply: message.reply ?? null
-        };
-
-        const record = await db.update('Message',
-                 `"MessageBody"='${messageModel.body}', "MessageDate"='${messageModel.date}', "ReplyID"=${messageModel.reply}`,
-                 `"MessageID"=${messageModel.id}`);
-        return record.rows[0] ? new Message(record.rows[0]).get() : undefined;
-    }
-
-    async delete(id, userID) {
-        const record = await db.delete('Message', `"MessageID"=${id}`);
         return record.rows[0] ? new Message(record.rows[0]).get() : undefined;
     }
 }
