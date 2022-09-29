@@ -1,0 +1,338 @@
+[1401-7-6 10:17:46] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:48:33] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:49:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:49:35] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:0] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:4] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:34] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:37] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:50:46] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:3] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:4] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:38] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:46] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:53] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:51:58] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:52:31] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:52:33] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:53:21] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "IsDelete"=0" message: error: column "IsDelete" does not exist 
+[1401-7-6 10:53:21] [ERROR]: /message/: error: column "IsDelete" does not exist 
+[1401-7-6 10:53:21] [ERROR]: /message/ - column "IsDelete" does not exist 
+[1401-7-6 10:54:59] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:15] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:55:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:56:3] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:56:10] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:15] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:17] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:24] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:42] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:57:45] [INFO]: path: /message/?id=2 
+[1401-7-6 10:58:37] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:58:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:58:41] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 10:59:6] [Warning]: [object Map] 
+[1401-7-6 10:59:6] [INFO]: path: /message/?id=2 
+[1401-7-6 11:0:7] [Warning]: [object Map] 
+[1401-7-6 11:0:17] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:0:18] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:0:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:4] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:8] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:9] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:24] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:28] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:1:38] [INFO]: path: /message/get?id=2 
+[1401-7-6 11:2:20] [INFO]: path: /message/add 
+[1401-7-6 11:2:37] [INFO]: path: /message/add 
+[1401-7-6 11:2:41] [INFO]: path: /message/add 
+[1401-7-6 11:2:42] [ERROR]: query: "INSERT INTO "public"."Message" ( "MessageBody", "MessageDate", "ReplyID" ) VALUES ( 'ghfjkdl', '1401-7-6 11:2:41', null ) RETURNING *" message: error: column "MessageBody" of relation "Message" does not exist 
+[1401-7-6 11:2:42] [ERROR]: /message/add: error: column "MessageBody" of relation "Message" does not exist 
+[1401-7-6 11:2:42] [ERROR]: /message/add - column "MessageBody" of relation "Message" does not exist 
+[1401-7-6 11:4:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:4:47] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:4:50] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:4:53] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:5:4] [INFO]: path: /message/add 
+[1401-7-6 11:5:23] [INFO]: path: /message/add 
+[1401-7-6 11:10:6] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:11] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:25] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:32] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 11:10:36] [INFO]: Server is running at: 127.0.0.1:81 
+<<<<<<< backend/modules/logger/1401-7-6.log
+[1401-7-6 16:51:9] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:51:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:51:57] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:51:59] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:54:10] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:54:59] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:56:42] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:56:45] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:56:53] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:13] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:16] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:18] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:21] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:29] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:57:37] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:58:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 16:58:25] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:0:1] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:0:2] [INFO]: Server is running at: 127.0.0.1:81 
+=======
+[1401-7-6 14:56:5] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 14:59:17] [INFO]: path: /message/ 
+[1401-7-6 14:59:20] [INFO]: path: /message/ 
+[1401-7-6 15:0:5] [INFO]: path: /message/ 
+[1401-7-6 15:0:6] [INFO]: path: /message/ 
+[1401-7-6 15:0:8] [INFO]: path: /message/ 
+[1401-7-6 15:0:20] [INFO]: path: /message/ 
+[1401-7-6 15:1:7] [INFO]: path: /message/ 
+[1401-7-6 15:3:29] [INFO]: path: /message/ 
+[1401-7-6 15:3:32] [INFO]: path: /message/ 
+[1401-7-6 15:4:37] [INFO]: path: /message/ 
+[1401-7-6 15:5:8] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:5:12] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:5:14] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:8:15] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:8:24] [INFO]: path: /message/ 
+[1401-7-6 15:8:57] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:8:59] [INFO]: path: /message/ 
+[1401-7-6 15:9:36] [INFO]: path: /message/ 
+[1401-7-6 15:10:8] [INFO]: path: /message/ 
+[1401-7-6 15:10:10] [INFO]: path: /message/ 
+[1401-7-6 15:10:24] [INFO]: path: /message/ 
+[1401-7-6 15:11:57] [INFO]: path: /message/ 
+[1401-7-6 15:12:20] [INFO]: path: /message/ 
+[1401-7-6 15:13:8] [INFO]: path: /message/ 
+[1401-7-6 15:13:39] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:40] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:48] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:49] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:13:51] [INFO]: path: /message/ 
+[1401-7-6 15:14:33] [INFO]: path: /message/ 
+[1401-7-6 15:14:33] [INFO]: path: /message/ 
+[1401-7-6 15:15:28] [INFO]: path: /message/ 
+[1401-7-6 15:15:31] [INFO]: path: /message/ 
+[1401-7-6 15:15:54] [INFO]: path: /message/ 
+[1401-7-6 15:16:15] [INFO]: path: /message/ 
+[1401-7-6 15:16:41] [INFO]: path: /message/ 
+[1401-7-6 15:16:44] [INFO]: path: /message/ 
+[1401-7-6 15:16:45] [INFO]: path: /message/ 
+[1401-7-6 15:16:50] [INFO]: path: /message/ 
+[1401-7-6 15:17:16] [INFO]: path: /message/ 
+[1401-7-6 15:17:16] [INFO]: path: /message/ 
+[1401-7-6 15:17:18] [INFO]: path: /message/ 
+[1401-7-6 15:17:20] [INFO]: path: /message/ 
+[1401-7-6 15:17:38] [INFO]: path: /message/ 
+[1401-7-6 15:17:39] [INFO]: path: /message/ 
+[1401-7-6 15:17:47] [INFO]: path: /message/ 
+[1401-7-6 15:17:48] [INFO]: path: /message/ 
+[1401-7-6 15:20:0] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:20:2] [INFO]: path: /message/ 
+[1401-7-6 15:20:9] [INFO]: path: /message/ 
+[1401-7-6 15:24:56] [INFO]: path: /message/ 
+[1401-7-6 15:24:57] [INFO]: path: /message/get?id=undefined 
+[1401-7-6 15:24:57] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "MessageID"=undefined" message: error: column "undefined" does not exist 
+[1401-7-6 15:24:57] [ERROR]: /message/get?id=undefined: error: column "undefined" does not exist 
+[1401-7-6 15:24:57] [ERROR]: /message/get?id=undefined - column "undefined" does not exist 
+[1401-7-6 15:24:59] [INFO]: path: /message/ 
+[1401-7-6 15:24:59] [INFO]: path: /message/get?id=undefined 
+[1401-7-6 15:24:59] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "MessageID"=undefined" message: error: column "undefined" does not exist 
+[1401-7-6 15:24:59] [ERROR]: /message/get?id=undefined - column "undefined" does not exist 
+[1401-7-6 15:24:59] [ERROR]: /message/get?id=undefined: error: column "undefined" does not exist 
+[1401-7-6 15:25:11] [INFO]: path: /message/ 
+[1401-7-6 15:25:11] [INFO]: path: /message/get?id=undefined 
+[1401-7-6 15:25:11] [ERROR]: query: "SELECT * FROM "public"."Message" WHERE "MessageID"=undefined" message: error: column "undefined" does not exist 
+[1401-7-6 15:25:11] [ERROR]: /message/get?id=undefined: error: column "undefined" does not exist 
+[1401-7-6 15:25:11] [ERROR]: /message/get?id=undefined - column "undefined" does not exist 
+[1401-7-6 15:25:12] [INFO]: path: /message/ 
+[1401-7-6 15:25:12] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:25:14] [INFO]: path: /message/ 
+[1401-7-6 15:25:14] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:25:16] [INFO]: path: /message/ 
+[1401-7-6 15:25:16] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:25:53] [INFO]: path: /message/ 
+[1401-7-6 15:25:53] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:16] [INFO]: path: /message/ 
+[1401-7-6 15:26:16] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:29] [INFO]: path: /message/ 
+[1401-7-6 15:26:29] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:36] [INFO]: path: /message/ 
+[1401-7-6 15:26:36] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:49] [INFO]: path: /message/ 
+[1401-7-6 15:26:49] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:26:51] [INFO]: path: /message/ 
+[1401-7-6 15:26:51] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:27:53] [INFO]: path: /message/ 
+[1401-7-6 15:27:53] [INFO]: path: /message/ 
+[1401-7-6 15:27:53] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:27:53] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:33:26] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:33:27] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:33:30] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 15:35:27] [INFO]: path: /message/ 
+[1401-7-6 15:35:28] [INFO]: path: /message/ 
+[1401-7-6 15:35:28] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:28] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:29] [INFO]: path: /message/ 
+[1401-7-6 15:35:29] [INFO]: path: /message/ 
+[1401-7-6 15:35:29] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:29] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:32] [INFO]: path: /message/ 
+[1401-7-6 15:35:32] [INFO]: path: /message/ 
+[1401-7-6 15:35:32] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:32] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:44] [INFO]: path: /message/ 
+[1401-7-6 15:35:44] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:35:44] [INFO]: path: /message/ 
+[1401-7-6 15:35:44] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:36:49] [INFO]: path: /message/ 
+[1401-7-6 15:36:49] [INFO]: path: /message/ 
+[1401-7-6 15:36:49] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:36:49] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:37:10] [INFO]: path: /message/ 
+[1401-7-6 15:37:10] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:37:10] [INFO]: path: /message/ 
+[1401-7-6 15:37:10] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:37:23] [INFO]: path: /message/ 
+[1401-7-6 15:37:23] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:38] [INFO]: path: /message/ 
+[1401-7-6 15:38:38] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:50] [INFO]: path: /message/ 
+[1401-7-6 15:38:50] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:51] [INFO]: path: /message/ 
+[1401-7-6 15:38:51] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:38:51] [INFO]: path: /message/ 
+[1401-7-6 15:38:51] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:39:33] [INFO]: path: /message/ 
+[1401-7-6 15:39:33] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:40:47] [INFO]: path: /message/ 
+[1401-7-6 15:40:47] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:41:33] [INFO]: path: /message/ 
+[1401-7-6 15:41:33] [INFO]: path: /message/get?id=1 
+[1401-7-6 15:41:37] [INFO]: path: /message/ 
+[1401-7-6 15:41:37] [INFO]: path: /message/get?id=1 
+[1401-7-6 16:28:23] [INFO]: path: /message/ 
+[1401-7-6 17:26:8] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:26:13] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:28:5] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:28:12] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:28:20] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:28:22] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:28:50] [INFO]: Server is running at: 127.0.0.1:81 
+[1401-7-6 17:29:53] [INFO]: Server is running at: 127.0.0.1:81  
+[1401-7-6 17:29:57] [INFO]: Server is running at: 127.0.0.1:81 ip 
+[1401-7-6 17:29:59] [INFO]: Server is running at: 127.0.0.1:81  
+[1401-7-6 17:30:15][1401-7-6 17:30:17] [1401-7-6 17:30:25] function stringify() { [native code] }[1401-7-6 17:30:39] {"message":"[INFO]: Server is running at: 127.0.0.1:81 \r\n"}[1401-7-6 17:41:41] [INFO]: {"message":"Server is running at: 127.0.0.1:81 \r\n"}[1401-7-6 17:41:47] [INFO]: {"message":"Server is running at: 127.0.0.1:81 \r\n"}[1401-7-6 17:42:0] [INFO]: {"message":"Server is running at: 127.0.0.1:81 \r\n"}[1401-7-6 17:42:32] [INFO]: {"message":"Server is running at: 127.0.0.1:81"}[1401-7-6 17:42:36] [INFO]: {"message":"Server is running at: 127.0.0.1:81"}[1401-7-6 17:42:48] [INFO]: {"message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:43:5] [INFO]: {"message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:43:25] [INFO]: {"message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:43:55] [INFO]: {"ip":"S","address":"e","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:43:58] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:43:59] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:15] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:19] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:22] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:27] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:31] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:38] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:43] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:45:51] [INFO]: {"ip":"p","address":"a","message":"h"}
+[1401-7-6 17:45:51] [ERROR]: {"ip":"/","address":"m","message":"s"}
+[1401-7-6 17:46:34] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:47:2] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:47:5] [INFO]: {"ip":"S","address":"e","message":"v"}
+[1401-7-6 17:47:7] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:47:17] [ERROR]: {"address":"/message/"}
+[1401-7-6 17:47:17] [INFO]: {"ip":"path: /message/"}
+[1401-7-6 17:48:2] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:48:7] [INFO]: {"ip":"path: /message/"}
+[1401-7-6 17:48:7] [ERROR]: {"address":"/message/","message":"hgfjkdlsm"}
+[1401-7-6 17:48:8] [ERROR]: {"address":"/message/","message":"hgfjkdlsm"}
+[1401-7-6 17:48:8] [INFO]: {"ip":"path: /message/"}
+[1401-7-6 17:49:13] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:49:15] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:49:17] [INFO]: {"ip":"path: /message/"}
+[1401-7-6 17:49:17] [ERROR]: {"ip":"127.0.0.1","address":"/message/","message":"hgfjkdlsm"}
+[1401-7-6 17:50:27] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:50:35] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:50:39] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:50:58] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:51:5] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:51:11] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:51:14] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:51:22] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:51:25] [INFO]: {"ip":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:51:25] [ERROR]: {"ip":"/message/ - error is not defined"}
+[1401-7-6 17:51:35] [ERROR]: {"ip":"/message/get?id=3 - error is not defined"}
+[1401-7-6 17:52:48] [INFO]: {"ip":"","address":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:52:52] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:52:53] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:19] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:24] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:27] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:47] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:48] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:56] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:53:58] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:2] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:7] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:10] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:12] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:16] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:27] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:54:37] [ERROR]: {"ip":"127.0.0.1","address":"/message/get?id=3","message":{}}
+[1401-7-6 17:55:10] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:11] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:19] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:20] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:21] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:24] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:28] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:31] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:55:33] [ERROR]: {"ip":"127.0.0.1","address":"/message/get?id=3","message":{}}
+[1401-7-6 17:56:8] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:56:11] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:56:15] [INFO]: {"ip":"127.0.0.1","address":"/message/get?id=3","message":""}
+[1401-7-6 17:58:48] [INFO]: {"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:2] [INFO]: {"id":"","ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:3] [INFO]: {"id":"","ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:6] [INFO]: {"id":"","ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:9] [INFO]: {"id":"","ip":"","address":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:22] [INFO]: {"id":"","ip":"","address":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:31] [INFO]: {"id":0.14493088150682443,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:37] [INFO]: {"id":0.580981864826555,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:42] [INFO]: {"id":6.5341015143966885,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 17:59:47] [INFO]: {"id":0.30134324926036693,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:28] [INFO]: {"id":0.5672903778212874,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:36] [INFO]: {"id":0.3310171788651184,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:41] [INFO]: {"id":0.18515723455161592,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:45] [INFO]: {"id":0.6302587206856851,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:48] [INFO]: {"id":0.5376820212342597,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:51] [INFO]: {"id":0.5770226582510338,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:0:52] [INFO]: {"id":0.1462610468591392,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:1:10] [INFO]: {"id":0.7933646949446242,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:1:19] [INFO]: {"id":0.4116858686088951,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:1:31] [INFO]: {"id":0.5175325790148562,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:1:49] [INFO]: {"id":0.9551047553363097,"ip":"127.0.0.1","address":"/message/get?id=3","message":""}
+[1401-7-6 18:1:51] [INFO]: {"id":0.7657594331327162,"ip":"127.0.0.1","address":"/message/get?id=3","message":""}
+[1401-7-6 18:1:53] [INFO]: {"id":"127.0.0.1","ip":"/captcha/get","address":"captcha"}
+[1401-7-6 18:1:55] [INFO]: {"id":0.6590052007991984,"ip":"127.0.0.1","address":"/message/get?id=3","message":""}
+[1401-7-6 18:2:26] [INFO]: {"id":0.977565932286155,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:2:30] [INFO]: {"id":0.39628880518451415,"ip":"127.0.0.1","address":"/captcha/get","message":"captcha"}
+[1401-7-6 18:4:26] [INFO]: {"id":0.15106321810789125,"ip":"","address":"","message":"Server is running at: 127.0.0.1:81"}
+[1401-7-6 18:4:28] [INFO]: {"id":0.13412299273855322,"ip":"127.0.0.1","address":"/message/add","message":""}
