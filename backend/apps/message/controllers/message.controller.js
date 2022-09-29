@@ -17,7 +17,7 @@ class MessageController {
                 sendResponse(res, statusCode.OK, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, messages);
             }
         } catch (error) {
-            logger.error(`${req.url}: ${error}`);
+            logger.error(Math.random(), req.socket.remoteAddress, req.url, error);
             throw error;
         }
     };
@@ -34,7 +34,7 @@ class MessageController {
             else
                 sendResponse(res, statusCode.CREATED, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, message);
         } catch (error) {
-            logger.error(`${req.url}: ${error}`);
+            logger.error(Math.random(), req.socket.remoteAddress, req.url, error);
             throw error;
         }
     };

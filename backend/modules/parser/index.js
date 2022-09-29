@@ -4,7 +4,9 @@ const logger = require('../logger');
 const statusCode = require('http-status-codes');
 
 function fetchQueryStringFromURL(req, res, next) {
-    logger.info('path: ' + req.url);
+    // logger.info('path: ' + req.url);
+    logger.info(Math.random(), req.socket.remoteAddress, req.url, "");
+    
     try {
         let q = req.url.split("?"), result = {};
         if (q.length >= 2) {
@@ -19,7 +21,7 @@ function fetchQueryStringFromURL(req, res, next) {
         req.querystring = result;
         return req;
     } catch (e) {
-        logger.error(e?.message);
+        logger.error(Math.random(), req.socket.remoteAddress, req.url, e);
         return sendResponse(res, 500, { "Content-Type": "application/json" }, e?.message);
     }
 }
@@ -42,7 +44,7 @@ async function getPostData(req, res, next) {
             });
         });
     } catch (e) {
-        logger.error(e?.message);
+        logger.error(Math.random(), req.socket.remoteAddress, req.url, e);
         return sendResponse(res, 500, { "Content-Type": "application/json" }, e?.message);
     }
 }
@@ -62,7 +64,7 @@ async function getHeaders(req, res, next) {
         }
         return req;
     } catch (e) {
-        logger.error(e?.message);
+        logger.error(Math.random(), req.socket.remoteAddress, req.url, e);
         return sendResponse(res, 500, { "Content-Type": "application/json" }, e?.message);
     }
 }
@@ -70,7 +72,7 @@ async function getHeaders(req, res, next) {
 async function InvalidId(req, res, next) {
     const { id } = req.querystring;
     if (!id) {
-        logger.error('Invalid parameter id!');
+        logger.error(Math.random(), req.socket.remoteAddress, req.url, 'Invalid parameter id!');
         return sendResponse(res, statusCode.BAD_REQUEST, { "Content-Type": "application/json" }, 'Invalid parameters!');
     }
     return req;

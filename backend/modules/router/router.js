@@ -37,7 +37,7 @@ class Router {
             const runMiddlewareForRoute = await this.#runMiddlewares(middlewares, req, res);
             if (runMiddlewareForRoute) await handler(req, res);
         } catch (e) {
-            logger.error(req.url + ' - ' + e?.message);
+            logger.error(Math.random(), req.socket.remoteAddress, req.url, e);
             sendResponse(res, res?.status ?? 500, { "Content-Type": "application/json" }, e?.message);
         }
     }
