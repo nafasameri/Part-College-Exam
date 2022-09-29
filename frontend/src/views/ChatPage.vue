@@ -2,7 +2,7 @@
   <div class="chat">
     <div class="chat__header">
       <div class="chat__title">چت کاربر</div>
-      <div class="chat__counter">(64 پیام)</div>
+      <div class="chat__counter">({{ messages.length }} پیام)</div>
     </div>
 
     <div class="chat__content">
@@ -16,19 +16,26 @@
   </div>
 </template>
 
-<script setup>
+<script>
+import { onMounted } from '@vue/runtime-core';
+import { mapActions, mapState, store } from "vuex";
 import MessageViewer from "../components/MessageViewer.vue";
-const messages = [
-  {
-    body: "ghfjkdls",
-    date: "1234",
-    reply: {
-      body: "ghfjkdls",
-      date: "1234",
-      reply: null,
-    },
+
+export default {
+  props: {
+    messageData: Object,
   },
-];
+  components: { MessageViewer },
+  computed: {
+    ...mapState(["messages"]),
+    ...mapActions(["fetchMessages"]),
+  },
+};
+onMounted(() => {
+  store.dispatch("fetchMessages");
+  // const messages = 
+})
+// console.log(messages);
 </script>
 
 <style lang="scss" src="@/assets/sass/chat.scss"></style>

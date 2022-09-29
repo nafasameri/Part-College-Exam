@@ -23,6 +23,12 @@ $text-active-color: #00a3ff;
     align-items: center;
     flex-direction: row;
 
+    &__header {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
     &__content {
         // display: flex;
         // flex-direction: column;
