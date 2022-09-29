@@ -11,10 +11,10 @@ class MessageController {
             const { id } = req.querystring;
             if (id) {
                 const message = await messageRepository.fetchById(id);
-                sendResponse(res, statusCode.OK, { "Content-Type": "application/json" }, message);
+                sendResponse(res, statusCode.OK, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, message);
             } else {
                 const messages = await messageRepository.fetchAll();
-                sendResponse(res, statusCode.OK, { "Content-Type": "application/json" }, messages);
+                sendResponse(res, statusCode.OK, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, messages);
             }
         } catch (error) {
             logger.error(`${req.url}: ${error}`);
@@ -26,13 +26,13 @@ class MessageController {
         try {
             const { body } = req;
             if (!body || !body.body)
-                return sendResponse(res, statusCode.BAD_REQUEST, { "Content-Type": "application/json" }, 'Invalid parameters!');
+                return sendResponse(res, statusCode.BAD_REQUEST, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, 'Invalid parameters!');
 
             const message = await messageRepository.add(body);
             if (!message)
-                sendResponse(res, statusCode.NOT_FOUND, { "Content-Type": "application/json" }, 'Could Not Create');
+                sendResponse(res, statusCode.NOT_FOUND, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, 'Could Not Create');
             else
-                sendResponse(res, statusCode.CREATED, { "Content-Type": "application/json" }, message);
+                sendResponse(res, statusCode.CREATED, { "Content-Type": "application/json", 'Access-Control-Allow-Origin': '*' }, message);
         } catch (error) {
             logger.error(`${req.url}: ${error}`);
             throw error;

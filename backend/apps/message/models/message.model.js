@@ -1,13 +1,13 @@
 class Message {
     #MessageID;
-    #MessageBoby;
+    #MessageBody;
     #MessageDate;
     #ReplyID;
 
 
     constructor(message) {
         this.#MessageID = message.MessageID;
-        this.#MessageBoby = message.MessageBoby;
+        this.#MessageBody = message.MessageBody;
         this.#MessageDate = message.MessageDate;
         this.#ReplyID = message.ReplyID;
     }
@@ -15,7 +15,7 @@ class Message {
     get() {
         return {
             "id": this.#MessageID,
-            "body": this.#MessageBoby,
+            "body": this.#MessageBody,
             "date": this.#MessageDate,
             "reply": this.#ReplyID,
         };
