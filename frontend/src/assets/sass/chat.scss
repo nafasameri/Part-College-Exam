@@ -18,13 +18,17 @@ $text-active-color: #00a3ff;
 }
 
 .chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
     &__content {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-end;
         padding: 0px;
         gap: 16px;
-
         position: absolute;
         width: 1304px;
         height: 490px;
