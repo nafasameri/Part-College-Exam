@@ -1,0 +1,36 @@
+$primary-color: #ffffff;
+$secondry-color: #999999;
+$background-color: #1e1e1e;
+$text-color: #333333;
+$active-color: #ccedff;
+$text-active-color: #00a3ff;
+
+@font-face {
+    font-family: "Yekan";
+    font-style: normal;
+    src: url("../font/YekanBakh-Light.woff2") format("woff2"), url("../font/YekanBakh-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Yekan";
+    font-style: bold;
+    src: url("../font/YekanBakh-Bold.woff2") format("woff2"), url("../font/YekanBakh-Bold.woff") format("woff");
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    &__content {
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-end;
+        padding: 0px;
+        gap: 16px;
+        position: absolute;
+        width: 1304px;
+        height: 490px;
+    }
+}
